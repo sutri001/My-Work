@@ -2,8 +2,6 @@ var x = 0
 var currentColor
 var r = 9
 
-
-
 function setup() {
   
   createCanvas(500,500)
@@ -33,4 +31,5 @@ function draw() {
   if (frameCount > 3000)
     noLoop()
 }
+
 
