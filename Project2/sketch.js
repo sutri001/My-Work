@@ -23,7 +23,7 @@ function draw() {
   var circleY = cos(x) * r + width/2
   currentColor= color(random(0,255), random(0,255), random(0,255),75)
   
-  ellipse(circleX,circleY,10,10)
+  ellipse(circleX,circleY,40,40)
   fill(currentColor)
   x = x + .05
   r = r + .10
