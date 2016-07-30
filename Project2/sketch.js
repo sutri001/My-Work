@@ -28,7 +28,7 @@ function draw() {
   x = x + .05
   r = r + .10
   
-  if (frameCount > 3000)
+  if (frameCount > 3020)
     noLoop()
 }
 
