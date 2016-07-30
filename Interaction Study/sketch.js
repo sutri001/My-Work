@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,4)
+  background(255,5)
 }
 
 function mousePressed() {
@@ -34,4 +34,5 @@ function mouseDragged() {
 
 function mouseWheel() {
   image(img2,0,0,width,height)
+
 }
