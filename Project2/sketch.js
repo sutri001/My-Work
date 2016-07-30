@@ -4,7 +4,7 @@ var r = 9
 
 function setup() {
   
-  createCanvas(500,500)
+  createCanvas(600,600)
   background(0)
   currentColor = color (255)
   noStroke()
@@ -28,7 +28,7 @@ function draw() {
   x = x + .05
   r = r + .10
   
-  if (frameCount > 3020)
+  if (frameCount > 3750)
     noLoop()
 }
 
